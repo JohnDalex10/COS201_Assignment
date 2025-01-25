@@ -9,13 +9,14 @@ public class Q3 {
         for (int num : values) sum += num;
         double mean = (double) sum / values.length;
         
-        // Calculate median
+        // Calculate variance, then standard deviation
         double variance = 0;
         for (int num : values) {
             variance += Math.pow(num - mean, 2);
         }
         double stdDev = Math.sqrt(variance / values.length);
         
+        // Calculate median after sorting
         Arrays.sort(values);
         int mid = values.length / 2;
         double median = values.length % 2 != 0 ? values[mid] : (values[mid-1] + values[mid]) / 2.0;
