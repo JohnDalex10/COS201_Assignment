@@ -1,4 +1,3 @@
-package COS201;
 import java.util.Arrays;
 
 public class Q3 {
