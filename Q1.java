@@ -1,5 +1,3 @@
-package COS201;
-
 public class Q1 {
     public static void main(String[] args) {
         System.out.println("Nigeria's Flag (Single Loop):");
