@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Q5 {
     public static void main(String[] args) {
-        int[][] array = new int[11][11];
+        int[][] array = new int[10][10];
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter 100 numbers for a 10x10 array:");
